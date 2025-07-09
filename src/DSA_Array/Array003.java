@@ -24,7 +24,7 @@ public class Array003 {
             System.out.println("The Arraylist Items is:-"+arr[i]);
         }
 
-        //show arraylist items by using for loops
+        //show arraylist items by using for loops create project for practice
         for(int x:arr){
             System.out.println("Using for loops print list items:-"+x);
         }
