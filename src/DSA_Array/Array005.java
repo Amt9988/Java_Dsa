@@ -15,7 +15,7 @@ public class Array005 {
 
         //define Array for how to insert data by using loops method
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter arr of index"+i+"to Store:-");
+            System.out.print("Enter arr of "+(i+1)+" to Store:-");
             arr[i]=sc.nextInt();
         }
 
