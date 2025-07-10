@@ -26,9 +26,29 @@ public class Array003 {
 
         //show arraylist items by using for loops create project for practice
         for(int x:arr){
-            System.out.println("Using for loops print list items:-"+x);
+            System.out.println(x);
         }
 
+        //create new java array and set value in "String"
+        String[] str=new String[]{
+                "Amit","Vishal","Rahul","Pankaj"
+        };
 
+        //Output showing by programme index number
+        System.out.println(str[0]);
+        System.out.println(str[1]);
+        System.out.println(str[2]);
+        System.out.println(str[3]);
+
+        //set value in index number of 5 in java Array
+        str[3]="Mia Khalifa";
+        for (int i = 0; i < str.length; i++) {
+            System.out.print(" "+str[i]);
+        }
+
+        //show list items using loops in java programme
+        for(String x:str){
+            System.out.println(" this str list:-"+x);
+        }
     }
 }
