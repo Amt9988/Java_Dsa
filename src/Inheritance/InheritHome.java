@@ -3,7 +3,7 @@ package Inheritance;
 import java.util.Scanner;
 
 public class InheritHome {
-    String name;
+     String name;
     String course;
     int Duration;
 
